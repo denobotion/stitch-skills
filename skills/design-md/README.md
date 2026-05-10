@@ -32,3 +32,7 @@ When activated, the agent follows a structured design analysis pipeline:
 3. **Translation**: Converts technical CSS/Tailwind values into descriptive, natural design language.
 4. **Synthesis**: Generates a comprehensive DESIGN.md following the semantic design system format.
 5. **Alignment**: Ensures output follows Stitch Effective Prompting Guide principles for optimal screen generation.
+
+## Notes
+
+> **Personal note:** I primarily use this with mobile projects, so I've found it helpful to explicitly mention the screen size/breakpoint in the prompt (e.g. "mobile-first") to get more accurate spacing and typography documentation.

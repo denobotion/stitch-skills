@@ -48,6 +48,7 @@ npx skills add google-labs-code/stitch-skills --skill enhance-prompt --global
 Converts Stitch screens to React component systems with automated validation and design token consistency.
 
 ```bash
+# Note: use `react-components` (not `react:components`) if the colon causes shell issues
 npx skills add google-labs-code/stitch-skills --skill react:components --global
 ```
 
@@ -73,16 +74,5 @@ Every directory within `skills/` or at the root level follows a standardized str
 skills/[category]/
 ├── SKILL.md           — The "Mission Control" for the agent
 ├── scripts/           — Executable enforcers (Validation & Networking)
-├── resources/         — The knowledge base (Checklists & Style Guides)
-└── examples/          — The "Gold Standard" syntactically valid references
+├── resources/         — The knowledge
 ```
-
-## Adding New Skills
-All new skills need to follow the file structure above to implement the Agent Skills open standard.
-
-### Great candidates for new skills
-* **Validation**: Skills that convert Stitch HTML to other UI frameworks and validate the syntax.
-* **Decoupling Data**: Skills that convert static design content into external mock data files.
-* **Generate Designs**: Skills that generate new design screens in Stitch from a given set of data.
-
-This is not an officially supported Google product. This project is not eligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security).

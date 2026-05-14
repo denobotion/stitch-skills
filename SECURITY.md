@@ -18,3 +18,5 @@ To report a security vulnerability in the **upstream project**, please use the [
 ## Additional Notes (Personal Fork)
 
 This fork is not actively maintained for security patches. If you are using this code in any capacity, please refer to the [upstream repository](https://github.com/google-labs-code/stitch-skills) for the latest security updates.
+
+> **Personal note:** I forked this primarily to experiment with the skill-chaining API. I do not recommend using this fork in any production or sensitive environment — please use the upstream source directly.

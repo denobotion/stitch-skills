@@ -38,3 +38,5 @@ When activated, the agent follows a structured design analysis pipeline:
 > **Personal note:** I primarily use this with mobile projects, so I've found it helpful to explicitly mention the screen size/breakpoint in the prompt (e.g. "mobile-first") to get more accurate spacing and typography documentation.
 
 > **Tip:** When working with dark-mode designs, add "include dark mode token variants" to your prompt — otherwise the generated DESIGN.md tends to only capture the light theme values.
+
+> **Personal note:** I've also started including the specific component I want documented (e.g. "focus on the navigation bar and card components") when I only need a partial design system update — saves a lot of noise in the output and makes it easier to diff against the existing DESIGN.md.
